@@ -1,8 +1,9 @@
-# Jakarta Interceptors
+JBoss Jakarta Interceptors
+==================================
 
-This repository contains the code for Jakarta Interceptors.
+This is fork of Jakarta Interceptors, with few extra fixes to make it work better inside WildFly.
 
-[Online JavaDoc](https://javadoc.io/doc/jakarta.interceptor/jakarta.interceptor-api/)
+Upstream used: https://github.com/eclipse-ee4j/interceptor-api
 
 Building
 --------

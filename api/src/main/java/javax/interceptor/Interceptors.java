@@ -60,5 +60,6 @@ public @interface Interceptors {
      *
      * @return an array representing the interceptor classes
      */
+    @SuppressWarnings({ "rawtypes" }) // By spec, this returns a raw type.  Don't mess with the spec.
     Class[] value();
 }

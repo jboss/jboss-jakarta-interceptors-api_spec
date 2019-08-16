@@ -48,7 +48,7 @@ public @interface Interceptor {
     /**
      * <p>
      * Priorities that define the order in which interceptors are invoked. These values are intended to be used with the
-     * {@link javax.annotation.Priority Priority} annotation for interceptors that are defined by means of interceptor
+     * javax.annotation.Priority Priority annotation for interceptors that are defined by means of interceptor
      * binding.
      *
      * <p>
