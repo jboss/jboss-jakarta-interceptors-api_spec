@@ -48,6 +48,7 @@
         <version.spec-version-maven-plugin>2.0</version.spec-version-maven-plugin>
         <vendor.name>Eclipse Foundation</vendor.name>
         <bundle.specification.title>Jakarta Interceptors ${spec.version} Specification</bundle.specification.title>
+        <automatic.module.name>beta.jboss.interceptor.api_1_2</automatic.module.name>
     </properties>
 
     <licenses>
@@ -148,7 +149,7 @@
                         <supportedProjectType>jar</supportedProjectType>
                     </supportedProjectTypes>
                     <instructions>
-                        <Automatic-Module-Name>java.interceptor</Automatic-Module-Name>
+                        <Automatic-Module-Name>${automatic.module.name}</Automatic-Module-Name>
                         <Bundle-Version>${spec.bundle.version}</Bundle-Version>
                         <Bundle-SymbolicName>${groupId}.${artifactId}</Bundle-SymbolicName>
                         <Extension-Name>${spec.extension.name}</Extension-Name>
